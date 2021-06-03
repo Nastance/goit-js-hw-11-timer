@@ -28,22 +28,16 @@ body {
   display: inline-block;
   font-size: 1.5em;
   list-style-type: none;
-  padding: 1em;
+  padding: 0;
   text-transform: uppercase;
+  max-width: 768px;
+  font-size: 3.375rem;
 }
 
 .label {
   display: block;
   font-size: 4.5rem;
-}
-
-@media all and (max-width: 768px) {
-  .label {
-    font-size: 1.125rem;
-    padding: 0.75rem;
-  }
-
-  .value {
-    font-size: 3.375rem;
-  }
+  max-width: 768px;
+  font-size: 1.125rem;
+  padding: 0.75rem;
 }
